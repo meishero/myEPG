@@ -24,3 +24,5 @@ http://epg.51zmt.top:8000/e1.xml.gz
 https://e.erw.cc/all.xml.gz
 https://epg.112114.xyz/pp.xml
 https://tv.mxdyeah.top/epgphp/t.xml
+
+https://epg.iill.top/epg.xml
