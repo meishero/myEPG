@@ -1,5 +1,26 @@
 #epg链接，一行一个
+#https://raw.githubusercontent.com/mytv-android/SCTV_EPG/refs/heads/main/epg.xml
+#https://epg.27481716.xyz/epg.xml
+#https://epg.mb6.top/heiptv.xml
+#https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz
+
+#国内 #ha.msbot/jack的4gtv  #myvideos
 https://raw.githubusercontent.com/mytv-android/SCTV_EPG/refs/heads/main/epg.xml
 https://epg.27481716.xyz/epg.xml
 https://epg.mb6.top/heiptv.xml
+https://liliu.serv00.net/epg/cn.xml
 https://raw.githubusercontent.com/kuke31/xmlgz/main/all.xml.gz
+#https://iptv.1989.click/epg.xml
+https://iptv.yang-1989.xyz/epg.xml.gz
+https://raw.githubusercontent.com/myhomebox/EPG/main/output/4g.xml
+https://raw.githubusercontent.com/myhomebox/EPG/main/output/litv.xml
+https://raw.githubusercontent.com/myhomebox/EPG/main/output/ofiii.xml
+https://raw.githubusercontent.com/myhomebox/EPG/main/output/hami.xml
+https://raw.githubusercontent.com/myhomebox/EPG/main/output/epg_tbc.xml
+https://myvideotv-tw.pages.dev/epg.xml
+
+http://epg.51zmt.top:8000/e.xml.gz
+http://epg.51zmt.top:8000/e1.xml.gz
+https://e.erw.cc/all.xml.gz
+https://epg.112114.xyz/pp.xml
+https://tv.mxdyeah.top/epgphp/t.xml
