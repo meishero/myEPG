@@ -2,7 +2,7 @@ name: 'Update schedule'
 
 on:
   schedule:
-    - cron: '30 4,16 * * *'
+    - cron: '38 4,10,17 * * *'
   workflow_dispatch:
     branches:
       - master
@@ -38,27 +38,12 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          if [[ -f "output/epg.xml" ]]; then
-            git add -f "output/epg.xml"
-          fi
-          if [[ -f "output/epg.gz" ]]; then
-            git add -f "output/epg.gz"
-          fi
+        
+          # 只加这 4 个文件
+          git add output/epg.xml output/epg.gz output/all.xml output/all.gz
+        
           if ! git diff --staged --quiet; then
-            git reset --soft $(git rev-list --max-parents=0 HEAD)
-            git commit --amend -m "Github Action Auto Updated"
-            git push --force
+            git commit -m "Github Action Auto Updated"
+            git push 
           fi
-      
-      - name: Mirror the Github organization repos to Gitee.
-        uses: Yikun/hub-mirror-action@master
-        with:
-          src: 'github/mytv-android'    			
-          dst: 'gitee/mytv-android'   
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}  
-          dst_token:  ${{ secrets.GITEE_TOKEN }}  
-          force_update: true
-          static_list: "myEPG"
-          account_type: org   		
-          debug: true
-
+  
