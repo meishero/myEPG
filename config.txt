@@ -26,3 +26,12 @@ https://epg.112114.xyz/pp.xml
 https://tv.mxdyeah.top/epgphp/t.xml
 
 https://epg.iill.top/epg.xml
+https://vip.erw.cc/e.xml
+https://epg.zsdc.eu.org/t.xml
+
+
+https://epg.pw/xmltv/epg_SG.xml
+https://epg.pw/xmltv/epg_CN.xml
+https://epg.pw/xmltv/epg_HK.xml
+https://epg.pw/xmltv/epg_MY.xml
+https://epg.pw/xmltv/epg_TW.xml
