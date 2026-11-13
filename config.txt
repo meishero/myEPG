@@ -22,9 +22,13 @@ https://myvideotv-tw.pages.dev/epg.xml
 
 http://epg.51zmt.top:8000/e.xml.gz
 http://epg.51zmt.top:8000/e1.xml.gz
+#海外
+http://epg.51zmt.top:8000/e2.xml.gz
 https://e.erw.cc/all.xml.gz
 https://epg.112114.xyz/pp.xml
 https://tv.mxdyeah.top/epgphp/t.xml
+https://epg.tv.darwinchow.com/epg.xml
+https://gitee.com/gsls200808/xmltvepg/raw/master/e7.xml.gz
 
 https://epg.iill.top/epg.xml
 https://vip.erw.cc/e.xml
